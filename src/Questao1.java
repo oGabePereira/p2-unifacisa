@@ -21,3 +21,5 @@ public class Questao1 {
 		teclado.close();
 	}
 }
+
+
