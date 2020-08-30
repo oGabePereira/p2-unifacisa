@@ -1,18 +1,17 @@
 package src;
-
-
 import java.util.Scanner;
 
-public class Questao5 {
+public class Questao004 {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
 		int contador = 0;
+		int vmin = teclado.nextInt();
+		int vmax = teclado.nextInt();
 		
-		for (int i = 0; i < 25; i++) {
-			int num = teclado.nextInt();
-			if(num % 2 == 0 && num >= 0) {
+		for (int i = vmin + 1; i < vmax; i++) {
+			if(i % 4 == 0) {
 				contador++;
 			}
 		}

@@ -1,9 +1,7 @@
 package src;
-
-
 import java.util.Scanner;
 
-public class Questao3 {
+public class Questao003 {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);

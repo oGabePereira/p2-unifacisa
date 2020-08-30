@@ -1,9 +1,7 @@
 package src;
-
-
 import java.util.Scanner;
 
-public class Questao7 {
+public class Questao007 {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
@@ -26,4 +24,3 @@ public class Questao7 {
 		System.out.println(media);
 	}
 }
- 
